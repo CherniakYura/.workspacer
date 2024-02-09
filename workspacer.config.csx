@@ -36,7 +36,9 @@ Action<IConfigContext> doConfig = (IConfigContext context) =>
             new TimeWidget(1000, "HH:mm:ss dd-MMM-yyyy"),
         }
     });
-    context.AddFocusIndicator();
+    context.AddFocusIndicator(new FocusIndicatorPluginConfig(){
+        BorderSize = 2,
+    });
     var actionMenu = context.AddActionMenu();
 
     context.WorkspaceContainer.CreateWorkspaces("1", "2", "3");
