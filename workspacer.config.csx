@@ -41,6 +41,10 @@ Action<IConfigContext> doConfig = (IConfigContext context) =>
     });
     var actionMenu = context.AddActionMenu();
 
+    KeyModifiers mod = KeyModifiers.Alt;
+    context.Keybinds.Unsubscribe(mod, Keys.Left);
+    context.Keybinds.Unsubscribe(mod, Keys.Right);
+
     context.WorkspaceContainer.CreateWorkspaces("1", "2", "3");
 };
 return doConfig;

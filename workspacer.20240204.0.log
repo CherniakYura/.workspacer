@@ -1,0 +1,15 @@
+2024-02-04 21:13:16.9116|FATAL|workspacer.Program|exception occurred, quitting workspacer: System.Collections.Generic.KeyNotFoundException: The given key 'workspacer.Monitor' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at workspacer.WorkspaceContainer.GetWorkspaceForMonitor(IMonitor monitor)
+   at workspacer.WorkspaceManager.get_FocusedWorkspace()
+   at workspacer.WorkspaceManager.SwitchToWorkspace(Int32 index)
+   at workspacer.KeybindManager.<SubscribeDefaults>b__28_18()
+   at workspacer.KeybindManager.DoKeyboardEvent(Keys key, KeyModifiers modifiersPressed)
+   at workspacer.KeybindManager.KbdHook(Int32 nCode, UIntPtr wParam, IntPtr lParam)|System.Collections.Generic.KeyNotFoundException: The given key 'workspacer.Monitor' was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at workspacer.WorkspaceContainer.GetWorkspaceForMonitor(IMonitor monitor)
+   at workspacer.WorkspaceManager.get_FocusedWorkspace()
+   at workspacer.WorkspaceManager.SwitchToWorkspace(Int32 index)
+   at workspacer.KeybindManager.<SubscribeDefaults>b__28_18()
+   at workspacer.KeybindManager.DoKeyboardEvent(Keys key, KeyModifiers modifiersPressed)
+   at workspacer.KeybindManager.KbdHook(Int32 nCode, UIntPtr wParam, IntPtr lParam)
