@@ -38,7 +38,7 @@ Action<IConfigContext> doConfig = (IConfigContext context) =>
         },
         RightWidgets = () => new IBarWidget[]
         {
-            new TimeWidget(1000, "HH:mm:ss dd-MMM-yyyy"),
+            new TimeWidget(5000, "HH:mm:ss dd-MMM-yyyy"),
         }
     });
     context.AddFocusIndicator(new FocusIndicatorPluginConfig(){
