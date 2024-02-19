@@ -46,6 +46,7 @@ Action<IConfigContext> doConfig = (IConfigContext context) =>
     });
     var actionMenu = context.AddActionMenu();
     context.WindowRouter.AddFilter((window) => !window.Title.Contains("Media viewer"));
+    context.WindowRouter.AddRoute((window) => window.Title.Contains("Microsoft Teams") ? context.WorkspaceContainer["3"] : null);
 
     KeyModifiers mod = KeyModifiers.Alt;
     context.Keybinds.Unsubscribe(mod, Keys.Left);
