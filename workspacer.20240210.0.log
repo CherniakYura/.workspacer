@@ -1,4 +1,4 @@
-2024-02-19 19:12:53.7526|FATAL|workspacer.Program|exception occurred, quitting workspacer: Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (47,86): error CS1002: ; expected
+2024-02-10 18:08:27.1725|FATAL|workspacer.Program|exception occurred, quitting workspacer: Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (44,49): error CS1002: ; expected
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.ThrowIfAnyCompilationErrors(DiagnosticBag diagnostics, DiagnosticFormatter formatter)
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.CreateExecutor[T](ScriptCompiler compiler, Compilation compilation, Boolean emitDebugInformation, CancellationToken cancellationToken)
    at Microsoft.CodeAnalysis.Scripting.Script`1.GetExecutor(CancellationToken cancellationToken)
@@ -9,30 +9,7 @@
    at workspacer.ConfigHelper.DoConfig(IConfigContext context)
    at workspacer.workspacer.Start()
    at workspacer.Program.Run()
-   at workspacer.Program.Main(String[] args)|Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (47,86): error CS1002: ; expected
-   at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.ThrowIfAnyCompilationErrors(DiagnosticBag diagnostics, DiagnosticFormatter formatter)
-   at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.CreateExecutor[T](ScriptCompiler compiler, Compilation compilation, Boolean emitDebugInformation, CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.Scripting.Script`1.GetExecutor(CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.Scripting.Script`1.RunAsync(Object globals, Func`2 catchException, CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.Scripting.Script`1.RunAsync(Object globals, CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.CSharp.Scripting.CSharpScript.RunAsync[T](String code, ScriptOptions options, Object globals, Type globalsType, CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.CSharp.Scripting.CSharpScript.EvaluateAsync[T](String code, ScriptOptions options, Object globals, Type globalsType, CancellationToken cancellationToken)
-   at workspacer.ConfigHelper.DoConfig(IConfigContext context)
-   at workspacer.workspacer.Start()
-   at workspacer.Program.Run()
-   at workspacer.Program.Main(String[] args)
-2024-02-19 19:13:04.8084|FATAL|workspacer.Program|exception occurred, quitting workspacer: Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (47,86): error CS1002: ; expected
-   at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.ThrowIfAnyCompilationErrors(DiagnosticBag diagnostics, DiagnosticFormatter formatter)
-   at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.CreateExecutor[T](ScriptCompiler compiler, Compilation compilation, Boolean emitDebugInformation, CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.Scripting.Script`1.GetExecutor(CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.Scripting.Script`1.RunAsync(Object globals, Func`2 catchException, CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.Scripting.Script`1.RunAsync(Object globals, CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.CSharp.Scripting.CSharpScript.RunAsync[T](String code, ScriptOptions options, Object globals, Type globalsType, CancellationToken cancellationToken)
-   at Microsoft.CodeAnalysis.CSharp.Scripting.CSharpScript.EvaluateAsync[T](String code, ScriptOptions options, Object globals, Type globalsType, CancellationToken cancellationToken)
-   at workspacer.ConfigHelper.DoConfig(IConfigContext context)
-   at workspacer.workspacer.Start()
-   at workspacer.Program.Run()
-   at workspacer.Program.Main(String[] args)|Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (47,86): error CS1002: ; expected
+   at workspacer.Program.Main(String[] args)|Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (44,49): error CS1002: ; expected
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.ThrowIfAnyCompilationErrors(DiagnosticBag diagnostics, DiagnosticFormatter formatter)
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.CreateExecutor[T](ScriptCompiler compiler, Compilation compilation, Boolean emitDebugInformation, CancellationToken cancellationToken)
    at Microsoft.CodeAnalysis.Scripting.Script`1.GetExecutor(CancellationToken cancellationToken)
@@ -44,7 +21,7 @@
    at workspacer.workspacer.Start()
    at workspacer.Program.Run()
    at workspacer.Program.Main(String[] args)
-2024-02-19 19:14:02.5943|FATAL|workspacer.Program|exception occurred, quitting workspacer: Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (47,86): error CS1002: ; expected
+2024-02-10 18:08:41.6712|FATAL|workspacer.Program|exception occurred, quitting workspacer: Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (44,49): error CS1002: ; expected
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.ThrowIfAnyCompilationErrors(DiagnosticBag diagnostics, DiagnosticFormatter formatter)
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.CreateExecutor[T](ScriptCompiler compiler, Compilation compilation, Boolean emitDebugInformation, CancellationToken cancellationToken)
    at Microsoft.CodeAnalysis.Scripting.Script`1.GetExecutor(CancellationToken cancellationToken)
@@ -55,7 +32,7 @@
    at workspacer.ConfigHelper.DoConfig(IConfigContext context)
    at workspacer.workspacer.Start()
    at workspacer.Program.Run()
-   at workspacer.Program.Main(String[] args)|Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (47,86): error CS1002: ; expected
+   at workspacer.Program.Main(String[] args)|Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (44,49): error CS1002: ; expected
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.ThrowIfAnyCompilationErrors(DiagnosticBag diagnostics, DiagnosticFormatter formatter)
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.CreateExecutor[T](ScriptCompiler compiler, Compilation compilation, Boolean emitDebugInformation, CancellationToken cancellationToken)
    at Microsoft.CodeAnalysis.Scripting.Script`1.GetExecutor(CancellationToken cancellationToken)
@@ -67,7 +44,7 @@
    at workspacer.workspacer.Start()
    at workspacer.Program.Run()
    at workspacer.Program.Main(String[] args)
-2024-02-19 19:14:52.3061|FATAL|workspacer.Program|exception occurred, quitting workspacer: Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (47,86): error CS1002: ; expected
+2024-02-10 18:09:10.0651|FATAL|workspacer.Program|exception occurred, quitting workspacer: Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (44,49): error CS1002: ; expected
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.ThrowIfAnyCompilationErrors(DiagnosticBag diagnostics, DiagnosticFormatter formatter)
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.CreateExecutor[T](ScriptCompiler compiler, Compilation compilation, Boolean emitDebugInformation, CancellationToken cancellationToken)
    at Microsoft.CodeAnalysis.Scripting.Script`1.GetExecutor(CancellationToken cancellationToken)
@@ -78,7 +55,7 @@
    at workspacer.ConfigHelper.DoConfig(IConfigContext context)
    at workspacer.workspacer.Start()
    at workspacer.Program.Run()
-   at workspacer.Program.Main(String[] args)|Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (47,86): error CS1002: ; expected
+   at workspacer.Program.Main(String[] args)|Microsoft.CodeAnalysis.Scripting.CompilationErrorException: (44,49): error CS1002: ; expected
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.ThrowIfAnyCompilationErrors(DiagnosticBag diagnostics, DiagnosticFormatter formatter)
    at Microsoft.CodeAnalysis.Scripting.ScriptBuilder.CreateExecutor[T](ScriptCompiler compiler, Compilation compilation, Boolean emitDebugInformation, CancellationToken cancellationToken)
    at Microsoft.CodeAnalysis.Scripting.Script`1.GetExecutor(CancellationToken cancellationToken)
